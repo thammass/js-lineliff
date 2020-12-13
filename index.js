@@ -4,7 +4,7 @@ import liff from "@line/liff";
 
 // Write Javascript code!
 const appDiv = document.getElementById("app");
-appDiv.innerHTML = `... `;
+appDiv.innerHTML = `..1234. `;
 
 // Write Javascript code!
 
