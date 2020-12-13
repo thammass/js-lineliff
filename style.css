@@ -1,0 +1,41 @@
+h1,
+h2 {
+  font-family: Lato;
+}
+
+body {
+  margin: 10px;
+  color: white;
+}
+
+button {
+  display: none;
+  width: 100%;
+  height: 50px;
+  padding: 8px auto;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  background-color: #ddd;
+}
+
+p {
+  border-bottom: 1px dashed #ddd;
+}
+
+#pictureUrl {
+  margin: 0 auto;
+  width: 32%;
+  display: -moz-box;
+  display: -webkit-box;
+  display: box;
+  -moz-box-pack: center;
+  -moz-box-aling: center;
+  -webkit-boc-pack: center;
+  -webkit-box-align: center;
+  box-pack: center;
+  box-align: center;
+  -mox-border-radius: 256px;
+  -webkit-border-radius: 256px;
+  border-radius: 256px;
+}
