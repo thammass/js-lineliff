@@ -116,9 +116,9 @@ async function getUserProfile() {
       {
         type: "image",
         originalContentUrl:
-          "https://www.sermsuk-intelligent.com/img/blog/blog2.png",
+          "https://abc.com/img/blog/blog2.png",
         previewImageUrl:
-          "https://www.sermsuk-intelligent.com/img/blog/blog2.png"
+          "https://abc.com/img/blog/blog2.png"
       }
   */
 
