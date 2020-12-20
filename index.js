@@ -49,18 +49,17 @@ async function main() {
     } else {
       body.style.backgroundColor = "#7A7";
     }
-      //if (MobileConn) {
+    //if (MobileConn) {
     if (liff.isLoggedIn()) {
       getUserProfile();
     } else {
       liff.login();
     }
     //  document.getElementById("app").innerHTML = " Liff : Load profile is Fail";
-    
+
     btnShare.style.display = "block";
     btnLOGOUT.style.display = "block";
   });
-
   await liff.init({ liffId: "1655373282-n3y9YMAq" });
 }
 main();
